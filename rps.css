@@ -50,11 +50,11 @@ body{
 
 
 #userScore{
-    color: blue;
+    color: #457b9d;
 }
 
 #computerScore{
-    color: red;
+    color:#e63946;
 }
 
 .mark_comp_select {
