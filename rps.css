@@ -1,0 +1,108 @@
+body{
+    background-color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#main {
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top: 10vh
+}
+
+#choose {
+    font-size: 50px;
+    align-items: center;
+    color:#ffd7ca
+}
+
+.rps {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.game_button {
+    cursor: pointer;
+    background-color:black;
+    border: none;
+    font-size: 100px;
+}
+
+.game_button:hover{
+    border-radius: 50%;
+    background-color: #ffd7ca;
+}
+
+#paper {
+    margin: 0 30px 0 30px;
+}
+.scoreNresult {
+    font-size: 30px;
+    color:#ffd7ca;
+}
+
+#score {
+    margin-top:0px;
+    color:#ffd7ca;
+}
+
+
+#userScore{
+    color: blue;
+}
+
+#computerScore{
+    color: red;
+}
+
+.mark_comp_select {
+    font-size: 70px;
+}
+
+#result {
+    width: 50vw;
+    margin-top: 0px;
+    text-align: center;
+    color: #fc46aa;
+}
+
+#restart {
+    font-size: 30px;
+    color: white;
+    background-color:#f26b8a;
+    margin-top:20px;
+    font-family: inherit;
+}
+
+@media (max-width: 500px){
+    #choose {
+        font-size: 30px;
+        align-items: center;
+    }
+    .game_button {
+        cursor: pointer;
+        background-color: black;
+        border: none;
+        font-size: 70px;
+    }
+    
+    .mark_comp_select {
+        font-size: 50px;
+    }
+    .scoreNresult {
+        font-size: 20px;
+    }
+
+    #result {
+        width: 60%;
+    }
+    
+    #restart {
+        font-size: 20px;
+        color: white;
+        background-color:#f26b8a;
+    }   
+}
+
